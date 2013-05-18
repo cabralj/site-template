@@ -1,4 +1,11 @@
-site-template
-=============
+Responsive Site Template
+================================
 
-Responsive site template
+
+Templates
+-------------------------
+* Featured
+* Project
+* Collection
+* Document
+
