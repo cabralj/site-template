@@ -1,5 +1,5 @@
 <?php
-  $view = (isset($_GET['view'])) ? $_GET['view'] : "featured";
+  $view = (isset($_GET['view'])) ? $_GET['view'] : "home";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -33,7 +33,7 @@
   <body>
 
 
-  <?php include("./comp/navigation.php"); ?>
+  <!--?php include("./comp/navigation.php"); ?-->
 
   <div class="container marketing">
 
