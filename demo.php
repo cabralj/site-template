@@ -1,3 +1,6 @@
+<?php
+  $view = (isset($_GET['view'])) ? $_GET['view'] : "featured";
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -29,13 +32,18 @@
 
   <body>
 
-    <?php include("navigation.php"); ?>
-    <?php include("carousel.php"); ?>
 
-    <div class="container marketing">
-      <?php include("collection.php"); ?>
-      <?php include("featured.php"); ?>
-      <?php include("footer.php"); ?>
+  <?php include("./comp/navigation.php"); ?>
+
+  <div class="container marketing">
+
+      <?php include("./comp/".$view.".php"); ?>
+
+
+      <!--?php include("./comp/carousel.php"); ?-->
+      <!--?php include("./comp/collection.php"); ?-->
+      <!--?php include("./comp/featured.php"); ?-->
+      <!--?php include("./comp/footer.php"); ?-->
     </div>
 
     <script src="./js/jquery-1.9.1.min.js"></script>
