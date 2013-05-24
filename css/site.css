@@ -8,6 +8,16 @@
       color: #5a5a5a;
     }
 
+
+    a {
+
+      font-style: normal;
+      color:#000;
+
+    }
+
+    
+
     /* CUSTOMIZE THE NAVBAR
     -------------------------------------------------- */
 
@@ -107,10 +117,22 @@
 
 
 
-    /* MARKETING CONTENT
+    /* PROJECT CONTENT
     -------------------------------------------------- */
+    .projects .span4 {
+      text-align: center;
+    }
+    .projects h2 {
+      font-weight: normal;
+    }
+    .projects .span4 p {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
 
-    /* Center align the text within the three columns below the carousel */
+
+    /* GAMES CONTENT
+    -------------------------------------------------- */
     .games .span4 {
       text-align: center;
     }
@@ -121,7 +143,6 @@
       margin-left: 10px;
       margin-right: 10px;
     }
-
 
     /* Featurettes
     ------------------------- */

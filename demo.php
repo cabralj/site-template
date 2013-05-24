@@ -37,14 +37,21 @@
 
   <div class="container marketing">
 
-      <?php include("./comp/".$view.".php"); ?>
-
-
+      <?php include("./comp/home.php"); ?>
+      <?php include("./comp/projects.php"); ?>
       <!--?php include("./comp/carousel.php"); ?-->
       <!--?php include("./comp/collection.php"); ?-->
       <!--?php include("./comp/featured.php"); ?-->
       <!--?php include("./comp/footer.php"); ?-->
     </div>
+
+  </div>
+
+
+  
+<?php include("./comp/games.php"); ?>
+
+
 
     <script src="./js/jquery-1.9.1.min.js"></script>
     <script src="./js/bootstrap-transition.js"></script>
