@@ -37,11 +37,14 @@
 
   <div class="container marketing">
 
-      <?php include("./comp/home.php"); ?>
-     
-      <?php include("./comp/projects.php"); ?>
-     
-      <!--?php include("./comp/carousel.php"); ?-->
+<?php 
+
+  include("./comp/carousel.php");
+  include("./comp/home.php"); 
+
+?>
+          
+
       <!--?php include("./comp/collection.php"); ?-->
       <!--?php include("./comp/featured.php"); ?-->
       <!--?php include("./comp/footer.php"); ?-->
