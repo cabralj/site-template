@@ -119,13 +119,16 @@
 
     /* PROJECT CONTENT
     -------------------------------------------------- */
-    .projects .span4 {
+
+    .span3 {text-align:center;}
+
+    .projects .span4 .span3{
       text-align: center;
     }
     .projects h2 {
       font-weight: normal;
     }
-    .projects .span4 p {
+    .projects .span4 .span3 p {
       margin-left: 10px;
       margin-right: 10px;
     }
@@ -133,13 +136,13 @@
 
     /* GAMES CONTENT
     -------------------------------------------------- */
-    .games .span4 {
+    .games .span4 .span3 {
       text-align: center;
     }
     .games h2 {
       font-weight: normal;
     }
-    .games .span4 p {
+    .games .span4 .span3 p {
       margin-left: 10px;
       margin-right: 10px;
     }
@@ -247,7 +250,7 @@
         font-size: 18px;
       }
 
-      .marketing .span4 + .span4 {
+      .marketing .span4 .span3 {
         margin-top: 40px;
       }
 

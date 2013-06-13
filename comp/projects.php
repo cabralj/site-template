@@ -1,33 +1,38 @@
+<style>
+
+</style>
+
 <!-- GAMES -->
 <div class="container projects">
 
 <!-- Three columns of text below the carousel -->
 <div class="row">
-  <div class="span4">
+  <div class="span3">
     <a href="#ebooks">
      <img src="./img/logos/ebooks.png">
-     <h2>Educational Games</h2>
-     <p>An eBook publishing platform that rapidly converts PDF, InDesign and EPUB formats into media-rich interactive books/games formated for tablets and mobile devices.</p>
-     <p>View details &raquo;</p>
+     <h2>eBooks</h2>
+     <!--p>An eBook publishing platform that rapidly converts PDF, InDesign and EPUB formats into media-rich interactive books/games formated for tablets and mobile devices.</p>
+     <p>View details &raquo;</p-->
     </a>
-  </div><!-- /.span4 -->
-  <div class="span4">
+  </div><!-- /.span3 -->
+  <div class="span3">
     <a href="#games"> 
       <img src="./img/logos/factory.png">
-     <h2>Application Pipeline</h2>
-     <p>Producing </p>
-     <p>View details</p>
+      <h2>Pipeline</h2>
     </a>
-  </div><!-- /.span4 -->
-  <div class="span4">
+    <p>
+      <a class="btn" href="#">View details &raquo;</a>
+    </p>
+  </div><!-- /.span3 -->
+
+  <div class="span3" onClick="alert(this)">
     <img src="./img/logos/services.png">
-    <h2>Professional Services</h2>
-    <p>The quick brown fox jumped over the lazy dog. </p>
+    <h2>Services</h2>
     <p><a class="btn" href="#">View details &raquo;</a></p>
-  </div><!-- /.span4 -->
+  </div><!-- /.span3 -->
 
 </div><!-- /.row -->
 
 
 <!--Divider -->
-<hr class="featurette-divider">
+<hr id="xxx" class="featurette-divider">

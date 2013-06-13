@@ -41,6 +41,11 @@
      
       <?php include("./comp/projects.php"); ?>
      
+
+      <?php include("./comp/pipeline.php"); ?>
+
+
+
       <!--?php include("./comp/carousel.php"); ?-->
       <!--?php include("./comp/collection.php"); ?-->
       <!--?php include("./comp/featured.php"); ?-->
